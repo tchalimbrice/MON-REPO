@@ -1,0 +1,144 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryServerApplication<discovery-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.discovery.DiscoveryServerApplication",
+            "projectName": "discovery-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51503 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=discovery-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthServerApplication<auth-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.auth.AuthServerApplication",
+            "projectName": "auth-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51130 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=auth-server"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CommerceServiceApplication<service-commerce>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.commerce.CommerceServiceApplication",
+            "projectName": "service-commerce",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53549 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-commerce"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConstructionServiceApplication<service-construction>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.construction.ConstructionServiceApplication",
+            "projectName": "service-construction",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53582 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-construction"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EducationServiceApplication<service-education>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.education.EducationServiceApplication",
+            "projectName": "service-education",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53616 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-education"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FermeServiceApplication<service-ferme>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.ferme.FermeServiceApplication",
+            "projectName": "service-ferme",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53680 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-ferme"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiAppApplication<api-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.api.ApiAppApplication",
+            "projectName": "api-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50029 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=api-app"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceTemplateApplication<service-template>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.template.ServiceTemplateApplication",
+            "projectName": "service-template",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50118 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-template"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HotellerieServiceApplication<service-hotellerie>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.hotellerie.HotellerieServiceApplication",
+            "projectName": "service-hotellerie",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50344 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-hotellerie"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LogistiqueServiceApplication<service-logistique>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.logistique.LogistiqueServiceApplication",
+            "projectName": "service-logistique",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50360 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-logistique"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestaurationServiceApplication<service-restauration>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.restauration.RestaurationServiceApplication",
+            "projectName": "service-restauration",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SanteServiceApplication<service-sante>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.sante.SanteServiceApplication",
+            "projectName": "service-sante",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransportServiceApplication<service-transport>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bizmaster.service.transport.TransportServiceApplication",
+            "projectName": "service-transport",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
