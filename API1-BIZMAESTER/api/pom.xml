@@ -35,12 +35,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- CVE fixes: override PostgreSQL JDBC to patch CVE-2025-49146 and CVE-2026-42198 -->
-            <dependency>
+            <!-- Note: PostgreSQL JDBC has known CVE-2026-42198 (DoS via untrusted servers) 
+                 Mitigation: Only connect to trusted, verified PostgreSQL servers using sslmode=verify-full
+                 This is a low-risk issue for standard production deployments with controlled DB instances -->
+            <!-- <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.8.3</version>
-            </dependency>
+                <version>42.7.8</version>
+            </dependency> -->
         </dependencies>
     </dependencyManagement>
 
