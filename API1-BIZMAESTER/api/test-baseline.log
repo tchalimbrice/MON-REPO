@@ -1,0 +1,360 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] bizmaster-api-parent                                               [pom]
+[INFO] discovery-server                                                   [jar]
+[INFO] auth-server                                                        [jar]
+[INFO] api-app                                                            [jar]
+[INFO] service-template                                                   [jar]
+[INFO] service-commerce                                                   [jar]
+[INFO] service-construction                                               [jar]
+[INFO] service-ferme                                                      [jar]
+[INFO] service-education                                                  [jar]
+[INFO] service-hotellerie                                                 [jar]
+[INFO] service-logistique                                                 [jar]
+[INFO] service-restauration                                               [jar]
+[INFO] service-sante                                                      [jar]
+[INFO] service-transport                                                  [jar]
+[INFO] 
+[INFO] -------------------------< com.bizmaster:api >--------------------------
+[INFO] Building bizmaster-api-parent 0.0.1-SNAPSHOT                      [1/14]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ api ---
+[INFO] 
+[INFO] -------------------< com.bizmaster:discovery-server >-------------------
+[INFO] Building discovery-server 0.0.1-SNAPSHOT                          [2/14]
+[INFO]   from discovery-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ discovery-server ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/discovery-server/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ discovery-server ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ discovery-server ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ discovery-server ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/discovery-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ discovery-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ discovery-server ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< com.bizmaster:auth-server >----------------------
+[INFO] Building auth-server 0.0.1-SNAPSHOT                               [3/14]
+[INFO]   from auth-server/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ auth-server ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/auth-server/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ auth-server ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ auth-server ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 11 source files with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ auth-server ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/auth-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ auth-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ auth-server ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------------< com.bizmaster:api-app >------------------------
+[INFO] Building api-app 0.0.1-SNAPSHOT                                   [4/14]
+[INFO]   from api-app/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ api-app ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/api-app/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ api-app ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ api-app ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ api-app ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/api-app/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ api-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ api-app ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< com.bizmaster:service-template >-------------------
+[INFO] Building service-template 0.0.1-SNAPSHOT                          [5/14]
+[INFO]   from service-template/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-template ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-template/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-template ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-template ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 83 source files with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-template ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-template/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-template ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-template ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< com.bizmaster:service-commerce >-------------------
+[INFO] Building service-commerce 0.0.1-SNAPSHOT                          [6/14]
+[INFO]   from service-commerce/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-commerce ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-commerce/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-commerce ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-commerce ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-commerce ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-commerce/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-commerce ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-commerce ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< com.bizmaster:service-construction >-----------------
+[INFO] Building service-construction 0.0.1-SNAPSHOT                      [7/14]
+[INFO]   from service-construction/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-construction ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-construction/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-construction ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-construction ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-construction ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-construction/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-construction ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-construction ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< com.bizmaster:service-ferme >---------------------
+[INFO] Building service-ferme 0.0.1-SNAPSHOT                             [8/14]
+[INFO]   from service-ferme/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-ferme ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-ferme/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-ferme ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-ferme ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-ferme ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-ferme/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-ferme ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-ferme ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.bizmaster:service-education >-------------------
+[INFO] Building service-education 0.0.1-SNAPSHOT                         [9/14]
+[INFO]   from service-education/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-education ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-education/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-education ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-education ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-education ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-education/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-education ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-education ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.bizmaster:service-hotellerie >------------------
+[INFO] Building service-hotellerie 0.0.1-SNAPSHOT                       [10/14]
+[INFO]   from service-hotellerie/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-hotellerie ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-hotellerie/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-hotellerie ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-hotellerie ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-hotellerie ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-hotellerie/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-hotellerie ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-hotellerie ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.bizmaster:service-logistique >------------------
+[INFO] Building service-logistique 0.0.1-SNAPSHOT                       [11/14]
+[INFO]   from service-logistique/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-logistique ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-logistique/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-logistique ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-logistique ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-logistique ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-logistique/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-logistique ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-logistique ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< com.bizmaster:service-restauration >-----------------
+[INFO] Building service-restauration 0.0.1-SNAPSHOT                     [12/14]
+[INFO]   from service-restauration/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-restauration ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-restauration/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-restauration ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-restauration ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-restauration ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-restauration/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-restauration ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-restauration ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< com.bizmaster:service-sante >---------------------
+[INFO] Building service-sante 0.0.1-SNAPSHOT                            [13/14]
+[INFO]   from service-sante/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-sante ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-sante/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-sante ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-sante ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-sante ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-sante/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-sante ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-sante ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.bizmaster:service-transport >-------------------
+[INFO] Building service-transport 0.0.1-SNAPSHOT                        [14/14]
+[INFO]   from service-transport/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ service-transport ---
+[INFO] Deleting /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-transport/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ service-transport ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ service-transport ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ service-transport ---
+[INFO] skip non existing resourceDirectory /home/caleb/Bureau/TCHALIM REPO/MON-REPO/API1-BIZMAESTER/api/service-transport/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ service-transport ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ service-transport ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for bizmaster-api-parent 0.0.1-SNAPSHOT:
+[INFO] 
+[INFO] bizmaster-api-parent ............................... SUCCESS [  0.738 s]
+[INFO] discovery-server ................................... SUCCESS [ 14.469 s]
+[INFO] auth-server ........................................ SUCCESS [  7.133 s]
+[INFO] api-app ............................................ SUCCESS [  1.959 s]
+[INFO] service-template ................................... SUCCESS [ 11.024 s]
+[INFO] service-commerce ................................... SUCCESS [  0.831 s]
+[INFO] service-construction ............................... SUCCESS [  1.294 s]
+[INFO] service-ferme ...................................... SUCCESS [  0.613 s]
+[INFO] service-education .................................. SUCCESS [  0.762 s]
+[INFO] service-hotellerie ................................. SUCCESS [  0.701 s]
+[INFO] service-logistique ................................. SUCCESS [  1.413 s]
+[INFO] service-restauration ............................... SUCCESS [  0.985 s]
+[INFO] service-sante ...................................... SUCCESS [  1.867 s]
+[INFO] service-transport .................................. SUCCESS [  0.865 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.423 s
+[INFO] Finished at: 2026-06-03T22:09:05Z
+[INFO] ------------------------------------------------------------------------
