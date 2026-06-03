@@ -9,6 +9,9 @@ spring:
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
     password: ${SPRING_DATASOURCE_PASSWORD:}
     driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 1
+      minimum-idle: 0
   jpa:
     hibernate:
       ddl-auto: update
@@ -18,10 +21,26 @@ spring:
         jdbc:
           lob:
             non_contextual_creation: true
+  mail:
+    host: ${SPRING_MAIL_HOST:sandbox.smtp.mailtrap.io}
+    port: ${SPRING_MAIL_PORT:2525}
+    username: ${SPRING_MAIL_USERNAME:a2be69901a7ff3}
+    password: ${SPRING_MAIL_PASSWORD:19ba6269658f3e}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
 
 service:
   base-path: /api
   domain: template
+
+app:
+  frontend:
+    url: ${APP_FRONTEND_URL:http://localhost:4200}
 
 jwt:
   secret: changeme1234567890changeme1234567890
@@ -39,3 +58,6 @@ springdoc:
     path: /api-docs
   swagger-ui:
     path: /swagger-ui.html
+
+mail:
+  from: ${MAIL_FROM:no-reply@bizmaster.local}

@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
@@ -36,6 +38,10 @@ public class SecurityConfig {
                 auth.requestMatchers(serviceBasePath + "/health").permitAll();
                 auth.requestMatchers(serviceBasePath + "/invites/**").permitAll();
                 auth.requestMatchers(serviceBasePath + "/sse/**").permitAll();
+                // Allow invitation endpoints for public access (batch email sending, token lookup, acceptance)
+                auth.requestMatchers("/api/invitations/send").permitAll();
+                auth.requestMatchers("/api/invitations/token/**").permitAll();
+                auth.requestMatchers("/api/invitations/accept").permitAll();
                 if (permitAll) {
                     auth.requestMatchers(serviceBasePath + "/**").permitAll();
                 } else {
@@ -45,5 +51,10 @@ public class SecurityConfig {
             })
             .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
     }
 }

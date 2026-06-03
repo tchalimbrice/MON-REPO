@@ -8,6 +8,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/auth_db
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
     password: ${SPRING_DATASOURCE_PASSWORD:}
+    hikari:
+      maximum-pool-size: 1
+      minimum-idle: 0
   jpa:
     hibernate:
       ddl-auto: update
